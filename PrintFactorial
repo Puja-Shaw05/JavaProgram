@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class PrintFactorial {
+   public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        int num = 1;
+        int factorial = 1;
+        while(num <=n){
+           factorial *= num;
+           num++;
+        }
+   }
+}
