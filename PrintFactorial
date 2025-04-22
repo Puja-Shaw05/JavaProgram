@@ -9,5 +9,6 @@ public class PrintFactorial {
            factorial *= num;
            num++;
         }
+       System.out.println("factorial of n is : " + factorial);
    }
 }
